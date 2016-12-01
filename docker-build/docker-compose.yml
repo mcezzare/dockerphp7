@@ -1,0 +1,11 @@
+version: '2'
+services:
+  apache-php:
+    image: debianapachephp7:1.0
+    ports:
+     - "8080:80"
+    volumes:
+     - ../:/var/www/html/
+    env_file: ../.env
+#to run
+#docker-compose -f docker-compose.yml up
