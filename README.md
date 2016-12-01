@@ -10,9 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 install [docker](https://www.docker.com) 
 
-```
-Give examples
-```
 
 ### Installing
 
@@ -31,7 +28,7 @@ And on finish
 ./docker_compose_run.sh
 ```
 
-Access http://localhost:8080/
+Open your favorite Browser and navigate to http://localhost:8080/ and you'll see phpinfo()
 
 ## Running the tests
 
@@ -40,7 +37,8 @@ composer is installed, create a task test to invoke phpunit ;)
 
 ## Deployment
 
-Your root apache folder is public, where you can create the index.php with bootstrap or a dispatcher you may prefer
+Your root apache folder is public, where you can create the index.php for bootstrap  your app or a dispatcher you may prefer.
+OBS: if you don't want to use a dispatcher, remove the .htaccess file with the rewrite rule.
 
 ## Built With
 Sublime text : rulez ;)
